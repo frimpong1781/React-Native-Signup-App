@@ -67,6 +67,7 @@ class SignupSceen extends Component {
                               style={styles.input}
                               placeholderTextColor='#aaaaaa'
                               placeholder='Email'
+                              autoCapitalize='none'
                               keyboardType='email-address'
                               onChangeText={this.handleChange}
                               value={email}
